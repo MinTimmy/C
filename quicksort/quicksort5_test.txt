@@ -1,0 +1,83 @@
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+//using namespace std;
+
+void quicksort( int * , int);
+void quicksort_resursive(int * , int  , int );
+void SWAP (int * , int *);
+void print(int * , int);
+
+int main()
+{
+    srand(0);
+    int num[10];
+
+    for (int a=0;a<10;a++)
+    {
+        num[a] = rand();
+    }
+    print(num , 10);
+
+    quicksort(num , 10);
+
+    std::cout<<std::endl<<"----------------------------------------------------------------------"<<std::endl;
+    print(num , 10);
+
+    return 0;
+}
+void quicksort_resursive(int *num , int start , int end)
+{
+    if(start >= end)
+    {
+        return;
+    }
+
+    int pivot = num[end];
+    int left  =start;
+    int right = end-1;
+
+    while (left < right)
+    {
+        while (num[left] < pivot && left < right)
+            left++;
+
+        while (num[right] >= pivot && left < right)
+            right--;
+
+        SWAP( &num[right] , &num[left]);
+    }
+
+    if(num[left] >= num[end])
+        SWAP(&num[left] , &num[end]);
+
+    else
+      left++;
+
+    if(left)
+      quicksort_resursive(num , start , left-1);
+
+    quicksort_resursive(num , left+1, end);
+}
+
+
+void quicksort(int *num , int len)
+{
+    quicksort_resursive(num , 0 , len-1);
+}
+
+
+void SWAP(int *a, int *b)
+{
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+void print(int *num , int arraysize)
+{
+    for(int a=0;a<arraysize;a++)
+    {
+        std::cout<<num[a]<<"  ";
+    }
+}

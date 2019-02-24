@@ -1,0 +1,85 @@
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+
+void SWAP( int * , int *);
+int Partition(int* , int ,int);
+int quicksort( int * , int ,int );
+int print(int *);
+
+int main()
+{
+    srand(0);
+    int num[10];
+
+    for (int a=0;a<10;a++)
+    {
+        num[a] = rand();
+    }
+
+    print(num);
+
+    quicksort(num , 0 , 9);
+
+    std::cout<<std::endl;
+
+    print(num);
+
+}
+
+int print(int *num)
+{
+    for(int a=0;a<10;a++)
+    {
+        std::cout<<num[a]<<"  ";
+    }
+}
+
+void SWAP(int *a, int *b){
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+
+int Partition( int* num , int left , int right)
+{
+    int j , base;
+
+    j = left-1;
+    base = num[right];
+
+    for(int i = left;i<right;i++)
+    {
+        if(num[i] < base)
+        {
+            j++;
+            SWAP(&num[i] , &num[j] );
+        }
+    }
+
+    SWAP (&num[j+1] , &num[right] );
+
+    return j+1;
+}
+
+
+int quicksort( int* num , int left , int right)
+{
+    int p;
+
+    if(left < right)
+    {
+        p = Partition(num , left , right);
+        quicksort(num , left , p-1);
+        quicksort(num , p+1 , right);
+
+    }
+}
+
+
+
+
+
+
+
