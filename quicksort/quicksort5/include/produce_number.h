@@ -8,15 +8,19 @@ class produce_number
         produce_number();
         virtual ~produce_number();
         void Random();
-        void user(); //�ϥΪ̦ۭq�}�C
+        void user();
         void print();
         void getvalue(int *,int &);
+
+
+        int arraysize;//再改
+        int *num;
+
     protected:
 
     private:
         int user_choose;
-        int arraysize;
-        int *num;
+
 
 };
 

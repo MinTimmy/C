@@ -12,6 +12,7 @@ class quicksort
         void print();
 
 
+
     private:
         int *num;
         int arraysize;

@@ -77,7 +77,7 @@ void produce_number::print()
 
 void produce_number::getvalue(int *n,int &Size)
 {
-    *n = num;
+   // *n = num;
     Size  =arraysize;
 
     //std::cout<<num<<std::endl<<n;

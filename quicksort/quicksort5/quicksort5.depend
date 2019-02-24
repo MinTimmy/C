@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1550842983 source:c:\users\timmy\desktop\c\quicksort\quicksort5\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"quicksort.h"
+	"produce_number.h"
+
+1551007771 c:\users\timmy\desktop\c\quicksort\quicksort5\include\quicksort.h
+
+1551007771 c:\users\timmy\desktop\c\quicksort\quicksort5\include\produce_number.h
+
+1550840610 source:c:\users\timmy\desktop\c\quicksort\quicksort5\src\quicksort.cpp
+	<iostream>
+	"quicksort.h"
+
+1551007735 source:c:\users\timmy\desktop\c\quicksort\quicksort5\src\produce_number.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"produce_number.h"
+
