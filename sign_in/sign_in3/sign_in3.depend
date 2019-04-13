@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1552111644 source:c:\users\timmy\desktop\sign_in\sign_in3\src\student.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<stdlib.h>
+	"student.h"
+
+1552111344 c:\users\timmy\desktop\sign_in\sign_in3\include\student.h
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	"people.h"
+
+1552109533 source:c:\users\timmy\desktop\sign_in\sign_in3\src\people.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	"people.h"
+
+1552181205 c:\users\timmy\desktop\sign_in\sign_in3\include\people.h
+	<iostream>
+	<windows.h>
+	<mysql.h>
+
+1476087933 c:\program files (x86)\dev-cpp\mingw64\include\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1476087946 c:\program files (x86)\dev-cpp\mingw64\include\mysql_com.h
+
+1476087972 c:\program files (x86)\dev-cpp\mingw64\include\mysql_time.h
+
+1476087983 c:\program files (x86)\dev-cpp\mingw64\include\mysql_version.h
+	<custom_conf.h>
+
+1476088123 c:\program files (x86)\dev-cpp\mingw64\include\typelib.h
+
+1476088168 c:\program files (x86)\dev-cpp\mingw64\include\my_list.h
+
+1476088177 c:\program files (x86)\dev-cpp\mingw64\include\my_alloc.h
+
+1552112782 source:c:\users\timmy\desktop\sign_in\sign_in3\main.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	"student.h"
+	"teacher.h"
+
+1552112586 c:\users\timmy\desktop\sign_in\sign_in3\include\teacher.h
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	"people.h"
+
+1552112782 source:c:\users\timmy\desktop\sign_in\sign_in3\src\teacher.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<stdlib.h>
+	<fstream>
+	"teacher.h"
+
+1552112782 source:c:\users\timmy\desktop\c\sign_in\sign_in3\main.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	"student.h"
+	"teacher.h"
+
+1552111344 c:\users\timmy\desktop\c\sign_in\sign_in3\include\student.h
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	"people.h"
+
+1552181205 c:\users\timmy\desktop\c\sign_in\sign_in3\include\people.h
+	<iostream>
+	<windows.h>
+	<mysql.h>
+
+1552112586 c:\users\timmy\desktop\c\sign_in\sign_in3\include\teacher.h
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	"people.h"
+
+1552112858 source:c:\users\timmy\desktop\c\sign_in\sign_in3\src\student.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<stdlib.h>
+	"student.h"
+
+1552112858 source:c:\users\timmy\desktop\c\sign_in\sign_in3\src\teacher.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<stdlib.h>
+	<fstream>
+	"teacher.h"
+

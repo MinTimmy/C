@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1552098499 source:c:\users\timmy\desktop\sign_in\sign_in2\main.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	"people.h"
+	"student.h"
+
+1476087933 c:\program files (x86)\dev-cpp\mingw64\include\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1476087946 c:\program files (x86)\dev-cpp\mingw64\include\mysql_com.h
+
+1476087972 c:\program files (x86)\dev-cpp\mingw64\include\mysql_time.h
+
+1476087983 c:\program files (x86)\dev-cpp\mingw64\include\mysql_version.h
+	<custom_conf.h>
+
+1476088123 c:\program files (x86)\dev-cpp\mingw64\include\typelib.h
+
+1476088168 c:\program files (x86)\dev-cpp\mingw64\include\my_list.h
+
+1476088177 c:\program files (x86)\dev-cpp\mingw64\include\my_alloc.h
+
+1552098403 source:c:\users\timmy\desktop\sign_in\sign_in2\src\people.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	"people.h"
+
+1552097529 c:\users\timmy\desktop\sign_in\sign_in2\include\people.h
+
+1552098551 source:c:\users\timmy\desktop\sign_in\sign_in2\src\student.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<string.h>
+	<vector>
+	"student.h"
+
+1552098569 c:\users\timmy\desktop\sign_in\sign_in2\include\student.h
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<string.h>
+	"people.h"
+
+1552098499 source:c:\users\timmy\desktop\c\sign_in\sign_in2\main.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	"people.h"
+	"student.h"
+
+1552107250 c:\users\timmy\desktop\c\sign_in\sign_in2\include\people.h
+
+1552098569 c:\users\timmy\desktop\c\sign_in\sign_in2\include\student.h
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<string.h>
+	"people.h"
+
+1552098551 source:c:\users\timmy\desktop\c\sign_in\sign_in2\src\student.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<string.h>
+	<vector>
+	"student.h"
+
