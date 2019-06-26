@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1555467187 source:c:\users\timmy\desktop\c\overloading\overloading1\main.cpp
+	<iostream>
+	"Array.h"
+
+1555467445 c:\users\timmy\desktop\c\overloading\overloading1\include\array.h
+	<iostream>
+
+1555465149 source:c:\users\timmy\desktop\demp.cpp
+	<iostream>
+
+1555467452 source:c:\users\timmy\desktop\c\overloading\overloading1\src\array.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<cassert>
+	"Array.h"
+

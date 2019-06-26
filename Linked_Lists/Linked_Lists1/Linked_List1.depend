@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1555156164 source:c:\users\timmy\desktop\linked_lists\linked_list1\main.cpp
+	<iostream>
+	"Linked_List.h"
+
+1555156214 source:c:\users\timmy\desktop\linked_lists\linked_list1\src\linked_list.cpp
+	<iostream>
+	"Linked_List.h"
+
+1555155737 c:\users\timmy\desktop\linked_lists\linked_list1\include\linked_list.h
+
+1555156225 source:c:\users\timmy\desktop\c\linked_lists\linked_list1\main.cpp
+	<iostream>
+	"Linked_List.h"
+
+1555156317 c:\users\timmy\desktop\c\linked_lists\linked_list1\include\linked_list.h
+
+1555156615 source:c:\users\timmy\desktop\c\linked_lists\linked_list1\src\linked_list.cpp
+	<iostream>
+	"Linked_List.h"
+

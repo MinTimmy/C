@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1561446040 source:c:\users\timmy\desktop\c\polynomial\main.cpp
+	<iostream>
+	"List.h"
+
+1561510536 source:c:\users\timmy\desktop\c\polynomial\src\list.cpp
+	<iostream>
+	"List.h"
+
+1561446463 c:\users\timmy\desktop\c\polynomial\include\list.h
+	"node.h"
+
+1561446241 c:\users\timmy\desktop\c\polynomial\include\node.h
+
+1561510509 source:c:\users\timmy\desktop\c\polynomial\src\calculator.cpp
+	"calculator.h"
+
+1561510874 c:\users\timmy\desktop\c\polynomial\include\calculator.h
+	"List.h"
+

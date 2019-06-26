@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1555990863 source:c:\users\timmy\desktop\c\shape\src\shape.cpp
+	"shape.h"
+
+1555990855 c:\users\timmy\desktop\c\shape\include\shape.h
+
+1555997639 source:c:\users\timmy\desktop\c\shape\src\point.cpp
+	<iostream>
+	"point.h"
+
+1555991926 c:\users\timmy\desktop\c\shape\include\point.h
+	"shape.h"
+
+1555999589 source:c:\users\timmy\desktop\c\shape\main.cpp
+	<iostream>
+	"point.h"
+	"circle.h"
+	"cylinder.h"
+
+1555999418 source:c:\users\timmy\desktop\c\shape\src\circle.cpp
+	<iostream>
+	"circle.h"
+
+1555999458 c:\users\timmy\desktop\c\shape\include\circle.h
+	"point.h"
+
+1555999451 source:c:\users\timmy\desktop\c\shape\src\cylinder.cpp
+	<iostream>
+	"cylinder.h"
+
+1555999125 c:\users\timmy\desktop\c\shape\include\cylinder.h
+	"circle.h"
+

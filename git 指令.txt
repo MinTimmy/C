@@ -1,0 +1,35 @@
+git status 顯示目前工作環境狀態
+
+
+git init 將專案資料夾建立成 git repository
+
+
+git add "file name" 我們有新增新的檔案，但是還沒進到 git 追蹤範圍中/暫存區，所以我們要使用 git add 加入追蹤，這樣之後檔案有修改就可以追蹤到。
+
+
+git rm --cached "file name"檔案尚未加入過追蹤時使用，即可恢復到檔案尚未加入暫存區
+
+
+git commit -m " 修改原因" 把檔案從暫存中放到git repository
+
+
+git commit -a -m "修改原因"   commit 這個修改時簡寫會寫成這樣（-a 是 add，-m 為 message 簡寫，後面接訊息資訊）：
+
+
+git config --global user.name "<Your Name>" 設定你的帳戶，讓 Git 知道這台電腦做的修改要連結到哪一個使用者（待會我們要在 Github 上註冊帳號，建議使用一致的帳號和電子信箱）：
+
+
+git config --global user.email "<your@gmail.com>" 設定電子郵件：
+
+
+git remote add origin <remote 網址>  本地端專案知道 origin 對應到遠端網址
+
+
+git push -u origin master // 將本地端程式 push 到遠端檔案庫(第一次)
+
+
+git push 將本地端程式 push 到遠端檔案庫(之後)
+
+
+git clone "remote repository 的網址" 從雲端複製到遠端
+
