@@ -18,24 +18,24 @@
 1561510874 c:\users\timmy\desktop\c\polynomial\include\calculator.h
 	"List.h"
 
-1561541208 source:c:\users\timmy\desktop\c\polynomial\polynomial2\src\list.cpp
+1561605027 source:c:\users\timmy\desktop\c\polynomial\polynomial2\src\list.cpp
 	<iostream>
 	"List.h"
 
-1561541141 c:\users\timmy\desktop\c\polynomial\polynomial2\include\list.h
+1561542337 c:\users\timmy\desktop\c\polynomial\polynomial2\include\list.h
 	"node.h"
 
 1561446241 c:\users\timmy\desktop\c\polynomial\polynomial2\include\node.h
 
-1561540152 source:c:\users\timmy\desktop\c\polynomial\polynomial2\main.cpp
+1561604783 source:c:\users\timmy\desktop\c\polynomial\polynomial2\main.cpp
 	<iostream>
 	"List.h"
 	"calculator.h"
 
-1561541953 c:\users\timmy\desktop\c\polynomial\polynomial2\include\calculator.h
+1561605166 c:\users\timmy\desktop\c\polynomial\polynomial2\include\calculator.h
 	"List.h"
 
-1561542001 source:c:\users\timmy\desktop\c\polynomial\polynomial2\src\calculator.cpp
+1561604981 source:c:\users\timmy\desktop\c\polynomial\polynomial2\src\calculator.cpp
 	<iostream>
 	<cstdlib>
 	<ctime>

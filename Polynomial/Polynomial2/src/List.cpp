@@ -28,6 +28,7 @@ void List::push_back( int e , int c)
 
 void List::list_print()
 {
+
     if( first == 0)
     {
         std::cout<<" the list is empty.\n\n";
@@ -43,7 +44,6 @@ void List::list_print()
     }
 
     std::cout<<"\n\n------------------------------\n\n";
-
 }
 
 void List::produce_complete_polynomial()

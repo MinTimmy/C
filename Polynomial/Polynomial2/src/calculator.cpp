@@ -54,8 +54,8 @@ void calculator::set_attribute( )
 
     if(polynomial_1.get_hight_exponent() > polynomial_2.get_hight_exponent())
     {
-         n1 = polynomial_1.get_list_first_node();
-         n2 = polynomial_2.get_list_first_node();
+         N1 = polynomial_1.get_list_first_node();
+         N2 = polynomial_2.get_list_first_node();
 
         max_exponent = polynomial_1.get_hight_exponent();
         min_exponent = polynomial_2.get_hight_exponent();
@@ -63,8 +63,8 @@ void calculator::set_attribute( )
 
     else
     {
-        n1 = polynomial_2.get_list_first_node();
-        n2 = polynomial_1.get_list_first_node();
+        N1 = polynomial_2.get_list_first_node();
+        N2 = polynomial_1.get_list_first_node();
 
         max_exponent = polynomial_2.get_hight_exponent();
         min_exponent = polynomial_1.get_hight_exponent();
@@ -105,6 +105,9 @@ void calculator::enter_polynomial(List& L)
 
 void calculator::addition()
 {
+    List answer;
+    node* n1 = N1;
+    node* n2 = N2;
     int e=0;
     for(e;e<=min_exponent;e++)
     {
@@ -125,6 +128,9 @@ void calculator::addition()
 
 void calculator::substraction()
 {
+    List answer;
+    node* n1 = N1;
+    node* n2 = N2;
     int e=0;
     for(e;e<=min_exponent;e++)
     {
@@ -147,8 +153,5 @@ void calculator::multiplication()
 {
 
 }
-void calculator::print_answer()
-{
-    answer.list_print();
-}
+
 

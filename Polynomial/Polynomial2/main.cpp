@@ -11,27 +11,13 @@ int main()
 
     calculator c;
 
-   // c.addition();
+    c.addition();
     c.substraction();
     //calculator
     //List L1;
     //List L2;
 
-/*
 
-    L1.list_print();
-    L2.list_print();
-    */
-   // L1.complete_polynomial();
-    //calculator.addition()
-    //calculator c1(L1.first , L2.first);
-  //  c1.addition();
-   // c1.print_answer();
-    //std::cout<<"\n\n------------------------------\n\n";
-    //L1.list_print();
-   // L2.list_print();
-    //enter(L2);
-    //enter(L1);
     return 0;
 }
 /*
