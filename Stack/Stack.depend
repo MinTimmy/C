@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1564145585 source:/home/timmy/home/C/Stack/main.cpp
+	<iostream>
+	"LinkedStack.h"
+
+1564145585 source:/home/timmy/home/C/Stack/src/LinkedStack.cpp
+	<iostream>
+	"LinkedStack.h"
+
+1564145633 /home/timmy/home/C/Stack/include/LinkedStack.h
+

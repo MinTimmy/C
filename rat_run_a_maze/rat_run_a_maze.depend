@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1564152577 source:/home/timmy/home/C/rat_run_a_maze/main.cpp
+	<iostream>
+	"LinkedStack.h"
+
+1564150109 /home/timmy/home/C/rat_run_a_maze/include/LinkedStack.h
+
+1564150109 source:/home/timmy/home/C/rat_run_a_maze/src/LinkedStack.cpp
+	<iostream>
+	"LinkedStack.h"
+
