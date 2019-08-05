@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1564974657 source:/home/timmy/Desktop/C/Queues/main.cpp
+	<iostream>
+
+1564975778 source:/home/timmy/Desktop/C/Queues/src/LinkedQueue.cpp
+	<iostream>
+	"LinkedQueue.h"
+
+1564975750 /home/timmy/Desktop/C/Queues/include/LinkedQueue.h
+

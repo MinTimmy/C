@@ -9,3 +9,13 @@
 
 1564145633 /home/timmy/home/C/Stack/include/LinkedStack.h
 
+1564972855 source:/home/timmy/Desktop/C/Stack/main.cpp
+	<iostream>
+	"LinkedStack.h"
+
+1564972855 /home/timmy/Desktop/C/Stack/include/LinkedStack.h
+
+1564972855 source:/home/timmy/Desktop/C/Stack/src/LinkedStack.cpp
+	<iostream>
+	"LinkedStack.h"
+
